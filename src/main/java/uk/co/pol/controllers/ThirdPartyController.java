@@ -27,7 +27,7 @@ public class ThirdPartyController {
     @Value("${authorise-uri}")
     private String authoriseUri;
 
-    private static final String USER_SCOPE = "openid profile fr:idm:* ";
+    private static final String USER_SCOPE = "openid profile";
 
     @Autowired
     public ThirdPartyController(UserAuthService userAuthService) {
